@@ -1,0 +1,33 @@
+input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  color: navy;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  border-radius : 2em;
+  background-color: lightgray;
+  border-color : navy;
+  color: navy;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

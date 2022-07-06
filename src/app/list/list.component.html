@@ -1,0 +1,12 @@
+
+  <ul>
+    <li *ngFor="let todo of todos ; let index = index"
+    (click)="deleteTodo(index)">
+      {{todo}}
+    </li>
+  </ul>
+
+<div *ngIf="todos.length === 0">
+  <h4>Vous n'avez pas de taches</h4>
+</div>
+
